@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-MAINTAINER Curtis Muntz <cmuntz@outlook.com>
+MAINTAINER Curtis Muntz <me@murt.is>
 
 RUN apt-get update && apt-get upgrade -y --no-install-recommends
 
