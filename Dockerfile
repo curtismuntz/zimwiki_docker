@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-MAINTAINER Curtis Muntz <me@murt.is>
+LABEL maintainer="me@murt.is"
 
 RUN apt-get update && apt-get upgrade -y --no-install-recommends
 
